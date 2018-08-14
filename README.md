@@ -9,7 +9,7 @@ python3.6以上
 localhostで複数サーバーを立てた後  
 `python bcclient.py`  
 `request to: port action (options)`  
-例  
+### 例  
 `request to: 5000 mine`  
 `request to: 5001 mine`  
 `request to: 5001 send target=5000 amount=1`  
@@ -27,7 +27,8 @@ localhostで複数サーバーを立てた後
 |register|target=port1,port2,port3|複数同時に登録も可能|
 |load||他サーバーのチェーンを確認する|
 |reboot||サーバーをリセットする|
-例  
+  
+### 例  
 `request to: 5000 register target=5001`  
 `request to: 5001 register target=5000`  
 `request to: 5000 mine`  
