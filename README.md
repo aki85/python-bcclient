@@ -21,7 +21,7 @@ localhostで複数サーバーを立てた後
 |action|option|result|
 |:--|:--|:--|
 |mine||1回マイニングする|
-|chain||自分のチェーンを返す|
+|chain||自分のチェーンを見る|
 |send|target=port amount=number|トランザクションを作成する|
 |register|target=port|他サーバーのチェーンを確認する準備|
 |register|target=port1,port2,port3|複数同時に登録も可能|
